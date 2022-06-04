@@ -115,6 +115,8 @@ html, body {
     line-height: 18px;
 
     color: #FFFFFF;
+
+    text-align: justify;
 }
 
 .footer {
@@ -130,4 +132,9 @@ html, body {
 .rtl {
     text-align: right;
     direction: rtl;
+}
+
+.padding-lr {
+    padding-left: 50px;
+    padding-right: 50px;
 }
