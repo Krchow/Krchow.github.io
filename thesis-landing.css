@@ -19,16 +19,25 @@ html, body {
 
 .home {
     position: absolute;
-    left: 5px;
+    left: 40px;
     top: 0px;
 
     font-family: 'Times New Roman';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 14px;
+    line-height: 18px;
 
     color: #FFFFFF;
+    text-decoration: none;
+}
+
+.home:hover {
+    text-decoration: underline;
+}
+
+.home:visited {
+    color: white;
     text-decoration: none;
 }
 
@@ -42,7 +51,7 @@ html, body {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 14px;
+    line-height: 18px;
     text-align: center;
     color: #FFFFFF;
 }
@@ -84,7 +93,7 @@ html, body {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 14px;
+    line-height: 18px;
 
     color: #FFFFFF;
     text-decoration: none;
@@ -103,7 +112,7 @@ html, body {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 14px;
+    line-height: 18px;
 
     color: #FFFFFF;
 }
@@ -116,4 +125,9 @@ html, body {
 
     width: 100%;
     margin-bottom: 25px;
+}
+
+.rtl {
+    text-align: right;
+    direction: rtl;
 }
