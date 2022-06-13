@@ -53,7 +53,7 @@ html, body {
     font-family: 'Times New Roman';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 12px;
     line-height: 18px;
     text-align: center;
 }
@@ -66,7 +66,7 @@ html, body {
 }
 
 #section1.body-section {
-    width: 25%;
+    width: 33%;
 }
 
 .body-section--list-links {
@@ -110,14 +110,14 @@ html, body {
     align-items: center;
 
     /* height: calc(100vh - 116px); */
-    width: 50%;
+    width: 33%;
 }
 
 .body-section--content-container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    /* align-items: center; */
+    align-items: flex-start;
 
     width: 100%;
 }
@@ -131,8 +131,10 @@ html, body {
     margin-left: 50px;
     margin-right: 50px;
     width: 100%;
+    height: 100%;
     margin-top: 0px;
     /* overflow: scroll; */
+    text-align: justify;
 }
 
 .body-section--content > * {
@@ -155,6 +157,15 @@ html, body {
 
 .body-section--image {
     width: 100%;
+}
+
+.body-section--video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    height: 40%;
 }
 
 .body-section--paragraph {
@@ -215,6 +226,30 @@ html, body {
 
 .nav-arrows {
     font-size: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
+    /* margin-left: 20px;
+    margin-right: 20px; */
+}
+
+/* .thesis-navigation-links-left {
+    position: fixed;
+    top: 885px;
+    left: 825px;
+    z-index: 1;
+}
+
+.thesis-navigation-links-right {
+    position: fixed;
+    top: 885px;
+    left: 1700px;
+    z-index: 1;
+} */
+
+.thesis-navigation-links-left {
+    margin-top: 757px;
+    z-index: 1;
+}
+
+.thesis-navigation-links-right {
+    margin-top: 757px;
+    z-index: 1;
 }
